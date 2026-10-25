@@ -10,33 +10,37 @@ h1,h2{line-height:1.25}hr{margin:36px 0;border:0;border-top:1px solid #ddd}.mute
 </style>
 </head><body>
 <h1>Alchemy Focus Privacy Policy</h1>
-<p class="muted">Last updated: October 16, 2026</p>
+<p class="muted">Last updated: October 25, 2026</p>
 <h2>Overview</h2>
-<p>Alchemy Focus is a local-first focus timer and circle-growth app. Projects, focus records, circle configurations, circle names and descriptions, statistics, and app settings are stored primarily on your device, including IndexedDB / WebView local storage.</p>
+<p>Alchemy Focus is a local-first focus timer and circle-growth app. Projects, focus records, circle configurations, circle names and descriptions, custom runes, imported image assets, legacy local drafts, statistics, and app settings are stored primarily on your device, including IndexedDB / WebView local storage and a separate image-asset database.</p>
 <h2>Accounts, advertising, and analytics</h2>
 <p>The current release does not require an Alchemy Focus account and does not include Alchemy Focus-operated advertising, behavioral analytics, or cloud-sync services. Focus records, project names, circle names, and descriptions are not uploaded to an Alchemy Focus-operated server.</p>
 <h2>Device features</h2>
 <p>The app may use device orientation or motion information to drive circle parallax and visual effects. In the current release this information is used on-device and raw motion-sensor data is not sent to an Alchemy Focus-operated server.</p>
 <h2>Platform services and open-source components</h2>
 <p>The App Store, TestFlight, iOS system features, and Apple services may process necessary device or diagnostic information under Apple’s policies. Open-source runtime libraries used by this release are distributed locally with the app.</p>
+<h2>Shared widget data</h2>
+<p>To display Home Screen widgets, the app writes a limited local snapshot containing focus totals, daily heatmap values, and relevant circle identifiers, names, and static circle images to an on-device App Group shared with its Widget extension. This does not copy the full Session database or upload these snapshots to an Alchemy Focus-operated server. iOS controls widget refresh timing.</p>
 <h2>Deletion and retention</h2>
-<p>You can clear app-managed local data from Settings → Delete All Data. Uninstalling the app normally also removes data in its app container. Alchemy Focus does not maintain its own cloud copy of this data in the current release.</p>
+<p>Delete All Data clears app-managed projects, focus records, circles, custom runes, imported images, legacy local drafts, related settings, and shared widget snapshots and circle images. The app then requests a widget refresh; iOS may temporarily retain an earlier widget display. User-exported files or photos, system backups, and third-party backups are not deleted by the app. Incomplete cleanup is reported and can be retried. Uninstalling the app does not replace this cleanup confirmation. Alchemy Focus does not maintain its own cloud copy in the current release.</p>
 <h2>Sale of personal data</h2><p>Alchemy Focus does not sell your personal data.</p>
 <h2>Contact</h2><p>For privacy questions, use the Alchemy Focus support contact listed on the App Store product page.</p>
 <h2>Changes</h2><p>If data-handling practices change, this policy will be updated with the relevant release and the date above will be revised.</p>
 <hr>
 <h1>《炼金专注》隐私政策</h1>
-<p class="muted">更新日期：2026年10月16日</p>
+<p class="muted">更新日期：2026年10月25日</p>
 <h2>概述</h2>
-<p>《炼金专注》是一款本地优先的专注计时与法阵成长应用。项目、专注记录、法阵配置、法阵名称与简介、统计数据以及应用设置主要保存在你的设备本地（包括 IndexedDB / WebView 本地存储）。</p>
+<p>《炼金专注》是一款本地优先的专注计时与法阵成长应用。项目、专注记录、法阵配置、法阵名称与简介、自绘符文、导入图片素材、旧本机草稿、统计数据以及应用设置主要保存在你的设备本地（包括 IndexedDB / WebView 本地存储及独立图片素材库）。</p>
 <h2>账户、广告与分析</h2>
 <p>当前版本不要求创建《炼金专注》账户，也未集成由《炼金专注》运营的广告、行为分析或云同步服务。专注记录、项目名称、法阵名称和简介不会上传到《炼金专注》自有服务器。</p>
 <h2>设备功能</h2>
 <p>应用可使用设备方向/运动信息来驱动法阵视差与界面效果。当前版本在设备端使用这些信息，不会将原始运动传感器数据发送到《炼金专注》服务器。</p>
 <h2>平台服务与开源组件</h2>
 <p>App Store、TestFlight、iOS 系统功能及 Apple 提供的服务可能按照 Apple 的政策处理必要的设备或诊断信息。当前发布包使用的开源运行库随应用本地分发。</p>
+<h2>Widget共享数据</h2>
+<p>为显示主屏幕小组件，App会将专注汇总、每日热力值及相关法阵标识、名称和静态法阵图片写入本机App Group，供本App的Widget扩展读取。这不会复制完整Session数据库，也不会将这些快照上传到《炼金专注》自有服务器。Widget刷新时机由iOS控制。</p>
 <h2>删除与保留</h2>
-<p>你可以在“设置 → 删除全部数据”中清除应用管理的本机数据。卸载 App 通常也会删除其应用容器中的本机数据。除非你主动保留，否则《炼金专注》没有自有云端副本。</p>
+<p>“删除全部数据”会清除本App管理的项目、专注记录、法阵、自绘符文、导入图片、旧本机草稿、相关设置，以及Widget共享统计快照和法阵图片。完成清理后App会请求Widget刷新；iOS可能暂时保留旧的Widget显示。用户自行导出的文件、照片及系统或第三方备份不由本App删除。若部分清理失败，App会提示并允许重试。卸载App不代替此清理确认；当前版本没有《炼金专注》自有云端副本。</p>
 <h2>数据出售</h2><p>《炼金专注》不会出售你的个人数据。</p>
 <h2>联系我们</h2><p>如有隐私问题，请使用 App Store 产品页面中列出的《炼金专注》支持联系方式。</p>
 <h2>政策变更</h2><p>如果数据处理方式发生变化，本政策会随发布版本更新，并修改上方更新日期。</p>
